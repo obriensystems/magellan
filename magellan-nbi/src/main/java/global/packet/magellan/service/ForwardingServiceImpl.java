@@ -144,7 +144,7 @@ public class ForwardingServiceImpl implements ForwardingService {
         String url = "";//PROTOCOL + "://";
         if(isReflector) {
             url = url + dnsTo + 
-				":" + portTo + URL_POSTFIX_REFLECTOR + 
+				":" + portTo + URL_POSTFIX_API + //URL_POSTFIX_REFLECTOR + 
 				"?dnsFrom=" + dnsTo + 
 				"&dnsTo=" + dnsFrom + 
 				"&from=" + portTo + 
