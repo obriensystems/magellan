@@ -1,6 +1,11 @@
 # magellan
 Magellan - world packet navigation
 
+# Docker runs
+```
+source
+docker run -d -p 8888:8080 --name magellan obrienlabs/magellan-nbi:0.0.3-arm
+```
 
 ## API
 start forwarding thread http://127.0.0.1:8888/nbi/forward/packet?dnsFrom=host.docker.internal&dnsTo=host.docker.internal&from=8889&to=8888&delay=1000
